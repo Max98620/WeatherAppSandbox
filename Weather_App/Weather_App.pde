@@ -3,6 +3,8 @@
 void setup() {
   //Geometry
   BuildingURL();
+  APICall();
+  unwrapToVariables();
   //population variables using server from sensor data
 }
 
@@ -13,6 +15,8 @@ void draw(){
 
 void mousePressed() {
   //city call, see procedure using boolean & button
+  //APICall();
+  //unwrapToVariable();
 }
 
 void keyPressed() {
