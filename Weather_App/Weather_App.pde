@@ -5,6 +5,8 @@ void setup() {
   BuildingURL();
   APICall();
   unwrapToVariables();
+  size(500, 600);
+  GUI_Setup();
   //population variables using server from sensor data
 }
 
